@@ -1,0 +1,6 @@
+[submodule "ConnectPlus-Front-end"]
+	path = ConnectPlus-Front-end
+	url = https://github.com/kelvingrg/ConnectPlus-Front-end.git
+[submodule "Coonectplus-backend-"]
+	path = Coonectplus-backend-
+	url = https://github.com/kelvingrg/Coonectplus-backend-.git
