@@ -79,12 +79,12 @@ export default function HomeNavbar() {
      
 
 
-      useEffect(()=>{
+
         if (sendNotification.userId){
             socket.current.emit('send-notification',sendNotification)
  dispatch(setSendNotification({userId:null,otherUserId:null,}))
  }
- },[sendNotification])
+
 //  alert("reacged ",notificationNumber.notification)
       
 
